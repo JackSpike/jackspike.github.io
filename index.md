@@ -6,23 +6,23 @@ markets. However, the aspect of uncertainty seems to be more pronounced
 in crypto markets, which observe frequent extreme price jumps both in
 positive and negative directions.
 
-Uncertainty itself is a very normal phenomenon in everyones’ lives
-(Elliott 2021) and people would even consider absolute certainty as less
-pleasuring (Lee and Qiu 2009). On the other hand, it is well known that
-people develop certan cognitive biases (Kahneman 2011), such that
+Uncertainty itself is a very normal phenomenon in everyones’ lives [1] and 
+people would even consider absolute certainty as less
+pleasuring [2]. On the other hand, it is well known that
+people develop certan cognitive biases [3], such that
 qualitative and quantitative assessments of uncertainty are not carried
-out in a logically coherent fashion (Tversky and Koehler 1994).
+out in a logically coherent fashion [4].
 
 Therefore, the question arises, how the uncertainty of crypto markets
 can be quantified such that a trader gains useful information? Of course
 there is the well researched field of volatility, which quantifies
-uncertainty as standard deviation of mean return (Derman and Miller
-2016). While volatility models are well understood[1], it is still a big
+uncertainty as standard deviation of mean return [5]. 
+While volatility models are well understood [6], it is still a big
 leap from these models to a specific trading decision like e.g. the
 limit order sell price for a specific crypto trading pair.
 
 A limit order specifies a price at which one is willing to buy or sell a
-certain number of tokens at any point in time (Abergel et al. 2016).
+certain number of tokens at any point in time [7].
 Overall, we can formulate the following requirements for a Crypto Market
 Performance with respect to the following dimensions: Chance, Profit,
 Feedback, and Dynamics.
@@ -131,7 +131,7 @@ trading pairs with performances
 
 The performances of all of these trading pairs can be sorted from
 smallest to largest values and the arithmetic mean of two values right
-in the middle of the list form the so-called *median*[2]:
+in the middle of the list form the so-called *median* [8]:
 $$  \begin{array}{rrrr}
   0.11\%,& 0.63\%,& 1.02\%,& 1.06\%,
   \end{array}
@@ -192,59 +192,31 @@ CMPs below 1.29% between end of April and beginning of May 2021.
 We conclude that anticipating these changes of the crypto market
 dynamics beforehand, clearly would be beneficial to crypto traders.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
-
-<div id="ref-Abergel2016_limit_orders" class="csl-entry">
-
-Abergel, Frédéric, Marouane Anane, Anirban Chakraborti, Aymen Jedidi,
-and Ioane Muni Toke. 2016. *Limit Order Books*. Delhi: Cambridge
-University Press.
-
-</div>
-
-<div id="ref-DermanMiller2016_volatility" class="csl-entry">
-
-Derman, Emauel, and Michael B. Miller. 2016. *The Volatility Smile*.
-Hoboken (NJ): Wiley. <https://doi.org/10.1002/9781119289258>.
-
-</div>
-
-<div id="ref-Elliott2021_uncertainty" class="csl-entry">
-
-Elliott, Andrew C. A. 2021. *What Are the Chances of That?: How to Think
+[1] Elliott, Andrew C. A. 2021. *What Are the Chances of That?: How to Think
 about Uncertainty*. Oxford: Oxford Scholarship Online.
 <https://doi.org/10.1093/oso/9780198869023.001.0001>.
 
-</div>
-
-<div id="ref-Kahneman2011_thinking" class="csl-entry">
-
-Kahneman, D. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus;
-Giroux.
-
-</div>
-
-<div id="ref-LeeQiu2009_uncertainty" class="csl-entry">
-
-Lee, Yih Hwai, and Cheng Qiu. 2009. “When Uncertainty Brings Pleasure:
+[2] Lee, Yih Hwai, and Cheng Qiu. 2009. “When Uncertainty Brings Pleasure:
 The Role of Prospect Imageability and Mental Imagery.” *Journal of
 Consumer Research* 36: 624–33. <https://doi.org/10.1086/599766>.
 
-</div>
+[3] Kahneman, D. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus;
+Giroux.
 
-<div id="ref-TverskyKoehler1994_quote" class="csl-entry">
-
-Tversky, Amos, and Derek J. Koehler. 1994. “Support Theory: A
+[4] Tversky, Amos, and Derek J. Koehler. 1994. “Support Theory: A
 Nonextensional Representation of Subjective Probability.” *Psychological
 Review* 101 (4): 547–67.
 
-</div>
+[5] Derman, Emauel, and Michael B. Miller. 2016. *The Volatility Smile*.
+Hoboken (NJ): Wiley. <https://doi.org/10.1002/9781119289258>.
 
-</div>
-
-[1] Assuming that the number of published books about a topic correlates
+[6] Assuming that the number of published books about a topic correlates
 with our knowledge and understanding (cf.
 <https://www.google.com/search?tbm=bks&q=volatility>).
 
-[2] For an odd number of trading pairs, the median is the value right in
+[7] Abergel, Frédéric, Marouane Anane, Anirban Chakraborti, Aymen Jedidi,
+and Ioane Muni Toke. 2016. *Limit Order Books*. Delhi: Cambridge
+University Press.
+
+[8] For an odd number of trading pairs, the median is the value right in
 the middle of the list.
