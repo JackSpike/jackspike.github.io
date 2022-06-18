@@ -88,8 +88,7 @@ Now, the performance of a trading pair can be computed over a twelve
 hour window as ratio of the maximal *High* price to the
 *Close* price before the start of the window minus one: 
 
-<img src="https://render.githubusercontent.com/render/math?math={\text{trading pair performance} = \frac{\text{12-hour High}}{\text{Close before window}} - 1.#gh-light-mode-only">
-<img src="https://render.githubusercontent.com/render/math?math={\color{white}\text{trading pair performance} = \frac{\text{12-hour High}}{\text{Close before window}} - 1.#gh-dark-mode-only">
+$$\text{trading pair performance} = \frac{\text{12-hour High}}{\text{Close before window}} - 1.$$
 
 This
 relation is visualized in
