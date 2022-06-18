@@ -43,53 +43,50 @@ Dynamics
 The Crypto Market Performance is updated regularly, such that changes in
 the market performance can be taken into account for decision making.
 
-In this spikepaper, we are introducing a measure of Crypto Market
+Here, we are introducing a measure of Crypto Market
 Performance (CMP), mapping the volatility of the market into a
 probabilistic statement, which can be easily interpreted with everyone’s
-intuition about uncertainty, risk, and chance
-(Chap. <a href="#CMP" data-reference-type="ref" data-reference="CMP">2</a>).
-Followed by the intuitive introduction of the CMP, we are introducing
-the Market Time Capsule
-(Chap. <a href="#sec:MTC" data-reference-type="ref" data-reference="sec:MTC">[sec:MTC]</a>),
-which is followed by a conclusion and outlook.
+intuition about uncertainty, risk, and chance.
 
 # Crypto market performance
 
 Let’s start with a short recap of candlestick charts. Candlestick charts
 combine four different price information over a certain period of time:
 
--   The *O**p**e**n* price at the start of the period,
+-   The *Open* price at the start of the period,
 
--   the *C**l**o**s**e* price at the end of the period,
+-   the *Close* price at the end of the period,
 
 -   the *High*est price during the period,
 
 -   the *Low*est price during the period.
 
-An example of a simulated candlestick chart is shown in
-Fig. <a href="#fig:candlestick" data-reference-type="ref" data-reference="fig:candlestick">2.1</a>
-on page . The chart shows the candlesticks for a hypothetical trading
+An example of a simulated candlestick chart is shown in the following figure:
+
+![Simulated kline](./figs/simulated_kline_1200.png)
+
+The chart shows the candlesticks for a hypothetical trading
 pair over periods of one hour starting on February 22nd at 22:00 UTC.
 Candlesticks are either green or red and consist of a box (real body)
 and up to two lines extending above and below the real body. These lines
 visualize the so-called shadows (candle wicks). The top shadow indicates
-the *H**i**g**h* price, the bottom shadow indicates the *L**o**w* price
+the *High* price, the bottom shadow indicates the *Low* price
 during the period. The color of the box denotes the interpretation of
 the box:
 
 Green  
-indicates that the *C**l**o**s**e* price is larger than the *O**p**e**n*
-price. In this case, the top of the box indicates the *C**l**o**s**e*
-price and its bottom indicates the *O**p**e**n* price.
+indicates that the *Close* price is larger than the *Open*
+price. In this case, the top of the box indicates the *Close*
+price and its bottom indicates the *Open* price.
 
 Red  
-indicates that the *C**l**o**s**e* price is smaller than the
-*O**p**e**n* price. In this case, the top of the box indicates the
-*O**p**e**n* price and its bottom indicates the *C**l**o**s**e* price.
+indicates that the *Close* price is smaller than the
+*Open* price. In this case, the top of the box indicates the
+*Open* price and its bottom indicates the *Close* price.
 
 Now, the performance of a trading pair can be computed over a twelve
-hour window as ratio of the maximal *H**i**g**h* price to the
-*C**l**o**s**e* price before the start of the window minus one: 
+hour window as ratio of the maximal *High* price to the
+*Close* price before the start of the window minus one: 
 
 <img src="https://render.githubusercontent.com/render/math?math={\text{trading pair performance} = \frac{\text{12-hour High}}{\text{Close before window}} - 1.#gh-light-mode-only">
 <img src="https://render.githubusercontent.com/render/math?math={\color{white}\text{trading pair performance} = \frac{\text{12-hour High}}{\text{Close before window}} - 1.#gh-dark-mode-only">
